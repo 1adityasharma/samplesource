@@ -26,7 +26,8 @@ Corporate-CleverADS Overview
 
 The above diagram shows the architectural overview of the AWS infrastructure used for project.
 
-![Untitled Diagram-Page-2 drawio (4)](https://user-images.githubusercontent.com/82954458/158649108-d5090820-4d5e-4aad-a193-b83cb2054708.png)
+![Sample App](https://user-images.githubusercontent.com/82954458/158660483-55de62dc-c39f-41e2-afee-d797475adbfd.png)
+
 
 
 
