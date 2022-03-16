@@ -51,7 +51,7 @@
 
 # Dev 
 
-# vpc 
+# VPC
 |Tags|VPC ID |IPv4 CIDR |
 |------|---------|---------|
 |dev-sample-vpc | vpc-02da433eebcaa87fc | 10.20.0.0/16 | 
@@ -62,7 +62,7 @@
 ## N. Virginia
 
 |Tags |Instance ID|Instance type|Private IPv4 addresses |Subnet |
-|------|---------|---------|
+|------|---------|---------|---------|---------|
 |dev-sample-0 | i-08423006f2b21c500 |t3.small | t3.small | subnet-0a6bb85d1d8ce2cb8 | 
 
 ## SECURITY GROUPS
