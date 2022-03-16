@@ -1,3 +1,5 @@
+# Prod
+
 # VPC 
 
 |Tags|VPC ID |IPv4 CIDR |
@@ -34,21 +36,49 @@
 
 ###  Prod-sample
 
-|DB identifier |Region & AZ |
+|DB identifier |Region & AZ |size |
+|------|---------|--------|
+| Prod-reader-1 | us-east-1a |db.r5.xlarge|
+| Prod-reader-2 |us-east-1b|db.r5.xlarge| 
+| prod-sample-1 |us-east-1c|db.r5.xlarge |
+
+
+
+# dev 
+
+# vpc 
+|Tags|VPC ID |IPv4 CIDR |
+|------|---------|---------|
+|dev-sample-vpc | vpc-02da433eebcaa87fc | 10.20.0.0/16 | 
+
+
+# INSTANCE
+
+## N. Virginia
+
+|Tags |Instance ID|Instance type|Private IPv4 addresses |Subnet |
+|------|---------|---------|
+|dev-sample-0 | i-08423006f2b21c500 |t3.small | t3.small | subnet-0a6bb85d1d8ce2cb8 | 
+
+## SECURITY GROUPS
+
+|Tags|Security groups|
 |------|---------|
-| Prod-reader-1 | us-east-1a |
-| Prod-reader-2 |us-east-1b|
-| prod-sample-1 |us-east-1c|
+| dev-sample  |  sg-06c4c95a42d83fe03 |
 
+## Elastic File System
 
+|Tags |File system ID |Security group ID |
+|------|---------|---------| 
+|dev-sample |fs-0375f92c332295174| sg-026fb0d0f2c296640 | 
 
+## RDS 
 
+###  Dev-sample
 
-
-
-
-
-
+|DB identifier |Region & AZ | size |
+|------|---------|--------|
+|dev-sample-1 | us-east-1c| db.t3.small |
 
 
  
